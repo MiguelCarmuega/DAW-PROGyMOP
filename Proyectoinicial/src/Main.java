@@ -4,8 +4,8 @@ public class Main {
 
 // TODO Me falta esto
 
-    void main() {
-        IO.println("Este es mi primer programa en java");
-        IO.println("Esta es mi segunda línea del programa");
+    public static void main(String[] args) {
+        System.out.println("Este es mi primer programa en java");
+        System.out.println("Esta es mi segunda línea del programa\n");
     }
 }
