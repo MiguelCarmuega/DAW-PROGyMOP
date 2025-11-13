@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Operadores {
     public void operadoresAritmeticos (){
         System.out.println("Explicación operadores aritmeticos");
@@ -58,5 +60,48 @@ public class Operadores {
 
     }
 
+    public void operadoresLogicos(){
+        int numeroUno = 4;
+        int numeroDos = 10;
+        int numeroTres = 17;
+        //Operador logico AND
+        boolean resultadoLogicoAND = numeroUno>1 && numeroDos<11 && numeroDos!=numeroTres && numeroTres%2!=0;
+                                  //true && true && true && true -> true
+        System.out.println("El resultado lógico del AND es "+resultadoLogicoAND);
+
+        // Operador lógico OR
+
+        boolean resultadoLogicoOR = numeroUno!=10 || numeroDos>10 || numeroTres<2 || numeroDos%2!=0;
+                                   //true || false || false || false -> true
+        System.out.println("El resultado lógico del OR es "+resultadoLogicoOR);
+
+        //Resultado lógico combinado
+
+        boolean resultadoLogicoCon = numeroUno<10 || numeroTres>0 || numeroDos!=9 && numeroUno>0;
+                                     // true || true || true && true -> true
+        System.out.println("El resultado lógico del OR y AND es "+resultadoLogicoCon);
+
+
+    }
+    public void evaluarCandidato(){
+        Scanner lectorTeclado = new Scanner(System.in);
+        System.out.println("Dime nobre y apellido");
+        String nombreApellido = lectorTeclado.nextLine();
+        System.out.println("Dime tu edad");
+        int edad = lectorTeclado.nextInt();
+        System.out.println("que salario quieres cobrar");
+        int salario = lectorTeclado.nextInt();
+        System.out.println("Tienes experiencia");
+        boolean experiencia = lectorTeclado.nextBoolean();
+
+        //candidato válido si edad inferior a 40 y sueldo inferior a 40000 y experiencia
+
+        boolean resultadoEvaluacion = edad<40 && salario<40000 && experiencia;
+        System.out.println("El resultado de la evaluación es que el candidato es "+resultadoEvaluacion);
+
+        lectorTeclado.close();
+
+
+    }
 
 }
