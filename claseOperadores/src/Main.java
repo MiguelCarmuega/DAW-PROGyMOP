@@ -6,7 +6,9 @@ public class Main {
         //operadoresCompi.operadoresComparacion();
         //Operadores operadoresLogicos = new Operadores();
         // operadoresLogicos.operadoresLogicos();
-        operadoresVariable.evaluarCandidato();
+       // operadoresVariable.evaluarCandidato();
+        operadoresVariable.cambiosTipo();
+
 
 
     }

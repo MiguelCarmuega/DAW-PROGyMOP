@@ -104,4 +104,19 @@ public class Operadores {
 
     }
 
+    public void cambiosTipo (){
+         //casteo -> cambiar un tipo de dato momentaneamente. Solo aplica a tipos que entran dentro de otros.
+        double ejemCasteo = (int)  7.5;
+        System.out.println(+ejemCasteo);
+
+        // parseo -> cambiar dato momentaneamente. tanto en origen como si no. ME LA JUEGO
+        String palabra ="hola";
+        // System.out.println(Integer.parseInt(palabra)); aqui no funciona
+        String palabra2 = "7";
+        System.out.println(Integer.parseInt(palabra2)); //Aqui si funciona
+
+
+
+    }
+
 }
