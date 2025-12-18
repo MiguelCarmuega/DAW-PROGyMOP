@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EstructuraIF.iml" filepath="$PROJECT_DIR$/EstructuraIF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EstructuraControl.iml" filepath="$PROJECT_DIR$/EstructuraControl.iml" />
     </modules>
   </component>
 </project>
