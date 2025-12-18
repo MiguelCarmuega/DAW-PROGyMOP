@@ -7,7 +7,11 @@ public class Main {
 
     Switch operaciones = new Switch();
     //operaciones.estructuraTradicional();
-        operaciones.estructuraLambda();
+       // operaciones.estructuraLambda();
+
+
+    EstructurasRepeticion repeticiones = new EstructurasRepeticion();
+    repeticiones.estructuraFor();
 
 
     }
